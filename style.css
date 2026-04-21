@@ -124,3 +124,56 @@ button {
   color: #717171;
   padding-top: 5px;
 }
+.fontour h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.fontour_2 p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.client-logos img {
+  width: 48px;
+  height: 48px;
+  margin: 10xp 60px;
+}
+.client-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  gap: 20px;
+}
+.client {
+  display: block;
+  text-align: center;
+  padding: 80px 50px;
+}
+.icon img {
+  width: 56px;
+  height: 65px;
+}
+.manage h1 {
+  font-size: 28px;
+  line-height: 36px;
+}
+.manage p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.fontmanage {
+  padding-top: 15px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.manage .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
