@@ -170,6 +170,10 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+.card{
+  box-shadow: 0px 0px 1px  rgba(175, 171, 171, 0.5);
+  border-radius: 8px;
+}
 .manage .cards {
   display: flex;
   justify-content: space-between;
@@ -177,3 +181,18 @@ button {
   padding: 40px 20px;
   text-align: center;
 }
+.unlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  max-width: calc(100% - 150px);
+  margin: auto;
+}
+.unlock .lessons h1{
+  font-size: 36px;
+}
+.unlock .lessons p{
+  font-size: 14px;
+}
+
