@@ -128,7 +128,7 @@ button {
   font-size: 36px;
   line-height: 44px;
 }
-.fontour_2 p {
+.fontour-2 p {
   font-size: 16px;
   line-height: 24px;
 }
@@ -170,8 +170,8 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.card{
-  box-shadow: 0px 0px 1px  rgba(175, 171, 171, 0.5);
+.card {
+  box-shadow: 0px 0px 1px rgba(175, 171, 171, 0.5);
   border-radius: 8px;
 }
 .manage .cards {
@@ -189,10 +189,58 @@ button {
   max-width: calc(100% - 150px);
   margin: auto;
 }
-.unlock .lessons h1{
+.unlock .lessons h1 {
   font-size: 36px;
 }
-.unlock .lessons p{
+.unlock .lessons p {
   font-size: 14px;
 }
+.left h1 {
+  font-size: 36px;
+  color: #4d4d4d;
+  line-height: 40px;
+}
+.left span {
+  color: #4caf4f;
+}
+.left p {
+  font-size: 16px;
+  color: #18191f;
+}
+.icon-achi img {
+  width: 48px;
+  height: 48px;
+  padding-right: 10px;
+}
+.icon-achi {
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+}
+.oneside h1 {
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+}
+.oneside p {
+  font-size: 16px;
+  line-height: 1px;
+  color: #717171;
+}
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+}
 
+.starts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: calc(100% - 200px);
+}
+.achievement {
+  background-color: #f5f7fa;
+}
