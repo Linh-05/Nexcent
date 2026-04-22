@@ -233,7 +233,6 @@ button {
   grid-template-rows: auto auto;
   align-items: center;
 }
-
 .starts {
   display: flex;
   justify-content: space-between;
@@ -243,4 +242,36 @@ button {
 }
 .achievement {
   background-color: #f5f7fa;
+}
+.community {
+  padding: 60px 80px;
+  background-color: #f5f7fa;
+}
+.container {
+  display: flex;
+  align-items: center;
+  max-width: calc(100% - 50px);
+  margin: auto;
+  gap: 50px;
+}
+.logo-community img {
+  width: 326px;
+  height: 326px;
+  border-radius: 12px;
+  display: block;
+}
+.read p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+}
+.community .client-logos img {
+  width: 30px;
+  height: 30px;
 }
